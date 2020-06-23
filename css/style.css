@@ -39,14 +39,6 @@ input[type=checkbox] {
     margin-bottom: 5%;
 }
 
-.salarySystem p {
-    text-align: center;
-}
-
-.salarySystem span {
-    font-size: larger;
-}
-
 h5 {
     margin: 5em 0 5em 0;
 }
@@ -60,4 +52,8 @@ input[type=checkbox].availableToPublic {
 .shiftSystemDescription,
 .TODO_DESC {
     display: none;
+}
+
+textarea::placeholder {
+    text-align: center;
 }
